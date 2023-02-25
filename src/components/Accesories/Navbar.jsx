@@ -4,10 +4,10 @@ import "../../css/Accesories/Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          SPARTAN FOOD
         </a>
         <button
           className="navbar-toggler"
@@ -28,13 +28,23 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="">
-                Features
+              <NavLink className="nav-link" to="menu">
+                Menu
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="">
-                Pricing
+              <NavLink className="nav-link" to="location">
+                Location
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="aboutus">
+                About us
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="contact">
+                Contact
               </NavLink>
             </li>
           </ul>
