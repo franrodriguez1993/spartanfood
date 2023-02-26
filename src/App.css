@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,200;0,300;1,100;1,200;1,300&family=Tilt+Prism&display=swap");
+
 .App {
   text-align: center;
 }
 
 .outlet-container {
   min-height: 95vh;
+}
+
+:root {
+  --titleFond: "Tilt Prism", cursive;
+  --subtitleFond: "Labrada", serif;
+  --mainColor: #771f0e;
 }

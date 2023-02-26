@@ -1,0 +1,17 @@
+.footer {
+  height: max-content;
+  background-color: var(--mainColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-img {
+  width: 7rem;
+}
+.footer-copyright {
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+  font-family: var(--subtitleFond);
+}

@@ -1,0 +1,121 @@
+.menuroute-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4598214285714286) 0%,
+      rgba(0, 0, 0, 0.4458158263305322) 100%
+    ),
+    url("../../../public/assets/img/menuroute.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menuroute-title {
+  font-family: var(--titleFond);
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: 1px 2px 2px pink;
+  margin-top: 5rem;
+}
+
+.menuroute-container_cards {
+  width: 90%;
+  margin: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+/**   MENU CARD  **/
+.cardMenu {
+  margin: 3rem 5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 27rem;
+  box-shadow: 10px 5px 5px #f7f2f1;
+}
+.cardMenu:hover {
+  cursor: pointer;
+  background-color: #f7f2f1;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.cardMenu-img {
+  width: 25rem;
+  height: 30rem;
+  object-fit: cover;
+}
+.cardMenu-presentation {
+  margin-top: 0.5rem;
+}
+.cardMenu-presentation_title {
+  font-family: var(--titleFond);
+  font-weight: bolder;
+  color: var(--mainColor);
+}
+.menu-description_p {
+  font-family: var(--subtitleFond);
+}
+
+/**   MEDIA QUERIES  **/
+
+/* 900 PIXELS */
+@media (max-width: 900px) {
+  .cardMenu {
+    width: 18rem;
+  }
+  .cardMenu-img {
+    width: 17rem;
+    height: 22rem;
+  }
+}
+/* 700 PIXELS */
+@media (max-width: 700px) {
+  .cardMenu {
+    width: 15rem;
+  }
+  .cardMenu-img {
+    width: 14rem;
+    height: 18rem;
+  }
+
+  .cardMenu-presentation_title {
+    font-size: 1.2rem;
+  }
+  .cardMenu-presentation_price {
+    font-size: 0.9rem;
+  }
+  .menu-description_p {
+    font-size: 0.9rem;
+  }
+}
+
+/* 500 PIXELS */
+@media (max-width: 500px) {
+  .cardMenu {
+    width: 13rem;
+  }
+  .cardMenu-img {
+    width: 12rem;
+    height: 15rem;
+  }
+
+  .cardMenu-presentation_title {
+    font-size: 1rem;
+  }
+  .cardMenu-presentation_price {
+    font-size: 0.8rem;
+  }
+  .menu-description_p {
+    font-size: 0.8rem;
+  }
+}
