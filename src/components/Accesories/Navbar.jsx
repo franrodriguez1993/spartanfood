@@ -1,14 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../css/Accesories/Navbar.css";
-
+import barsIcon from "../../svg/bars.svg";
+import spartanLogo from "../../svg/spartan.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          SPARTAN FOOD
-        </a>
+        <img src={spartanLogo} alt="spartan" className="spartan-logo" />
         <button
           className="navbar-toggler"
           type="button"
@@ -18,12 +17,13 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <img src={barsIcon} className="navbar-toggler-icon" />
+          {/* <span className="navbar-toggler-icon"></span> */}
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link active" aria-current="page" to="/">
+              <NavLink className="nav-link" aria-current="page" to="/">
                 Home
               </NavLink>
             </li>
