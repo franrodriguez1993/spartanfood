@@ -15,14 +15,41 @@
   background-attachment: fixed;
 }
 
+.location-title {
+  margin-bottom: 4rem;
+  font-family: var(--titleFond);
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: 1px 2px 2px pink;
+  margin-top: 6rem;
+}
+
 .locationroute-body {
-  margin-top: 10rem;
   margin-bottom: 5rem;
   width: 90%;
   background-color: #fff;
 }
 
 .iframe-map {
+  margin-bottom: 3rem;
   width: 80%;
-  height: 10rem;
+  height: 20rem;
+  border: 3px solid var(--mainColor);
+}
+
+.locationroute-body_title {
+  font-family: var(--subtitleFond);
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.locationroute-localname {
+  font-family: var(--titleFond);
+  color: var(--mainColor);
+}
+.locationroute-body_title--p {
+  font-family: var(--subtitleFond);
+}
+.locationroute-body_title--p:last-child {
+  margin-bottom: 2rem;
 }
