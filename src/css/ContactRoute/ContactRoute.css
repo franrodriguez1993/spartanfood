@@ -1,0 +1,44 @@
+.div-container-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4598214285714286) 0%,
+      rgba(0, 0, 0, 0.4458158263305322) 100%
+    ),
+    url("../../../public/assets/img/home2.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-contact {
+  padding: 4rem;
+  margin-bottom: 4rem;
+  width: 90%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactus-title {
+  margin-bottom: 5rem;
+  font-family: var(--titleFond);
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: 1px 2px 2px pink;
+  margin-top: 5rem;
+}
+
+.contact-card_svg {
+  width: 5rem;
+}
+
+.contact-card_text {
+  font-family: var(--subtitleFond);
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
