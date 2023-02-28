@@ -21,6 +21,7 @@
   font-size: 5rem;
   text-shadow: 1px 2px 2px pink;
   margin-top: 5rem;
+  animation: fadeAnimation 1.5s ease-in forwards;
 }
 
 .aboutus-description_container {
@@ -30,6 +31,7 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  animation: upFadeAnimation 2s ease-in forwards;
 }
 
 .aboutus-description_section--top {
